@@ -1,20 +1,15 @@
 {
-  "name": "node-hello",
+  "name": "nodejs-on-ec2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple node.js app that servers \"A Monk in Cloud\"",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/johnpapa/node-hello.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/johnpapa/node-hello/issues"
-  },
-  "homepage": "https://github.com/johnpapa/node-hello#readme"
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
